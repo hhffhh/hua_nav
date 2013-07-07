@@ -3,7 +3,6 @@
 .r{float:right;}
 ul,li,ol{list-style:none;}
 a{text-decoration: none;}
-.clear{clear:both;}
 nav{display:block;}
 body{background:url(../images/bg.jpg) repeat;font-family: Arial, 'Microsoft Yahei', Simsun, sans-serif;}
 .top{height:24px;border-bottom:1px solid #7d7d7d; 
@@ -88,7 +87,7 @@ position:absolute;content: "your slogan goes";top:10px;width:100px;height:100px;
 	  background:-moz-linear-gradient(90deg, rgba(68,55,43,.44)0%, rgba(255,255,255,.44) 100%);
 	  background:-webkit-linear-gradient(90deg, rgba(68,55,43,.44)0%, rgba(255,255,255,.44) 100%);
      background:-o-linear-gradient(90deg, rgba(68,55,43,.44)0%, rgba(255,255,255,.44) 100%);
-	 
+	  /*background:linear-gradient(90deg, rgba(68,55,43,.44)0%, rgba(255,255,255,.44) 100%);*/
 }
 .nav2:after{
 	position: absolute;
@@ -97,7 +96,7 @@ position:absolute;content: "your slogan goes";top:10px;width:100px;height:100px;
 	  height: 20px;
 	  left: 0;
 	  width:100%;
-	 
+	  /*background: #f3eee9;*/
 	  background:
 radial-gradient(#f3eee9 15%, transparent 16%) 0 0,
 radial-gradient(#f3eee9 15%, transparent 16%) 2px 2px,
@@ -165,7 +164,10 @@ background:linear-gradient(top, rgba(0,0,0,.07)0%, rgba(255,255,255,.02) 100%);
 
 }
 .nav4 .logo{position:absolute;z-index:2;top:-30px;}
+/*.nav4_wrap{
+height: 60px;
 
+	float:right;margin-left:100px;position:relative;}*/
 .silde_left{
 position: absolute;
 top:1px;
@@ -192,7 +194,7 @@ background:#40606e;
 	  height: 10px;
 	  left: 0;
 	  width:100%;
-	
+	 /* box-shadow:-1px -1px 6px #666 inset,-1px -1px 6px #666;*/
 	  }
 .nav4 ul{padding-left:140px;padding-top:20px;}
 .nav4 li{float:left;margin-right:10px;}
@@ -209,77 +211,8 @@ background:-o-linear-gradient(top, rgba(0,0,0,.07)0%, rgba(255,255,255,.02) 100%
 background:linear-gradient(top, rgba(0,0,0,.07)0%, rgba(255,255,255,.02) 100%);
 
 }
-.nav5{position:relative;
-
-height:80px;
-margin-top:60px;
-background:-webkit-linear-gradient(top, #4b5664 0%, #1f2b38 100%);
-background:-moz-linear-gradient(top, #4b5664 0%, #1f2b38 100%);
-background:-o-linear-gradient(top, #4b5664 0%, #1f2b38 100%);
-background:linear-gradient(top, #4b5664 0%, #1f2b38 100%);
+.nav5{
+background-color: gray;
+background-image: repeating-linear-gradient(-45deg, transparent, transparent -35px, 
+rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);background-size:4px 4px;
 }
-.nav5:before{
-position:absolute;
-background:-moz-linear-gradient(top, #151515 0%,#292929 100%);
-background:-webkit-linear-gradient(top, #151515 0%,#292929 100%);
-background:-o-linear-gradient(top, #151515 0%,#292929 100%);
-background:-ms-linear-gradient(top, #151515 0%,#292929 100%);
-background:linear-gradient(top, #151515 0%,#292929 100%);
-	  content:" ";
-	  height:10px;
-	  top:-10px;
-	  left:0;
-	  width:100%;
-	  border-bottom:1px solid #7888a0;
-}
-.nav5:after{
-position:absolute;
-
-	  content:" ";
-	  height:16px;
-	  bottom:-16px;
-	  left:0;
-	  width:100%;
-	   background:
-radial-gradient(#f3eee9 15%, transparent 16%) 0 0,
-radial-gradient(#f3eee9 15%, transparent 16%) 2px 2px,
-radial-gradient(rgba(190,190,190,.1) 30%, transparent 20%) 0 1px,
-radial-gradient(rgba(190,190,190,.1) 15%, transparent 20%) 8px 9px;
-background-color:#f3eee9;
-background-size:4px 4px;
-	  box-shadow:1px 1px 5px #333;
-	 
-}
-.nav5 ul{padding-top:20px;}
-.nav5 li{float:left;margin-right:10px;}
-.nav5 li a{display:block;padding: 6px 10px;color: #fff;text-shadow:1px 1px 1px rgba(61,61,61,0.5);}
-.nav5 li .active,.nav5 li a:hover{
-color: #fff;
-background-color:#fff; 
-border-radius: 5px;
-box-shadow: 0px -1px 1px rgba(255,255,255,.4)  inset,0px -1px 1px rgba(255,255,255,.4) inset;
-background:-moz-linear-gradient(top, rgba(0,0,0,.07)0%, rgba(255,255,255,.02) 100%);
-background:-webkit-linear-gradient(top, rgba(0,0,0,.07)0%, rgba(255,255,255,.02) 100%);
-background:-o-linear-gradient(top, rgba(0,0,0,.07)0%, rgba(255,255,255,.02) 100%);
-background:linear-gradient(top, rgba(0,0,0,.07)0%, rgba(255,255,255,.02) 100%);
-
-}
-.nav6_wrap{height:80px;overflow:hidden;background: radial-gradient(rgb(0, 0, 0) 15%, rgba(0, 0, 0, 0.18) 16%) 0 0, radial-gradient(rgb(14, 14, 14) 15%, rgba(0, 0, 0, 0.03) 16%) 2px 2px, radial-gradient(rgba(190, 190, 190, 0.08) 30%, rgba(0, 0, 0, 0.02) 20%) 0 1px, radial-gradient(rgba(190,190,190,.1) 15%, rgba(0, 0, 0, 0.03) 20%) 8px 9px;
-background-color: rgb(46, 46, 46);
-background-size: 3px 3px;
-box-shadow:-1px 1px  12px #ccc inset;
-}
-.nav6{background: radial-gradient(circle, transparent 20%, rgb(24, 145, 145) 20%, rgb(3, 121, 131) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, rgb(3, 131, 136) 20%, rgb(4, 112, 139) 80%, transparent 80%, transparent) 50px 50px, linear-gradient(rgb(6, 137, 143) 8px, transparent 8px) 0 -4px, linear-gradient(90deg, rgb(78, 188, 192) 8px, transparent 8px) -4px 0;
-background-color: rgb(117, 134, 155);
-background-size: 5px 4px, 3px 5px, 3px 2px, 8px 2px,2px,2px,3px,3px;
-margin: 22px 0 0 0;
-}
-.nav6 .logo{position:relative;top:-10px;}
-.nav6 ul{padding-top:20px;}
-.nav6 li{float:left;}
-.nav6 li a{color: #fff;padding:8px 10px;}
-.aa{width:600px;height:5px;
-background-color:#def;
-background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
-background-size:10px 10px;
-background-position:10 10, 20px 20px;margin-bottom:100px;}
